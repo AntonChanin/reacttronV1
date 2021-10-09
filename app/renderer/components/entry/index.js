@@ -11,7 +11,7 @@ export default (props) => {
   const [count, incrementCount] = useState(0);
 
   return (
-    <div className='hello'>
+    <div className='hello' style={{ position: 'absolute' }}>
       <h1>Hello {props.name} World!</h1>
       <h3>Version: {getVersion()}</h3>
       <h3>Counter: {count}</h3>
