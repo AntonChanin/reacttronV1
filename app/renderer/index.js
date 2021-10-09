@@ -1,2 +1,11 @@
-const appElem = document.getElementById('app');
-appElem.innerHTML = '<h1>Hello World!</h1>';
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+// import entry component
+import Entry from './components/entry';
+
+// render `Entry` component
+ReactDOM.render(
+	<Entry name='React' />,
+	document.getElementById('app'),
+);

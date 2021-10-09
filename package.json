@@ -1,15 +1,23 @@
 {
   "name": "electron-lessons",
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
+  },
   "scripts": {
     "start": "electron-webpack dev",
     "build": "electron-webpack"
   },
   "devDependencies": {
+    "@babel/preset-react": "^7.14.5",
     "electron": "^11.1.1",
     "electron-webpack": "^2.8.2",
     "webpack": "^4.44.2"
   },
   "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "source-map-support": "^0.5.19"
   }
 }
